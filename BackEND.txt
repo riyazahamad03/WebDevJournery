@@ -1,0 +1,34 @@
+npm init -- to get all the required details 
+
+implementing modules:
+const or var   name = require("name");
+refer webdev/NodejsFirstOne folder 
+
+
+
+https://www.npmjs.com/  --- NPM MODULES
+
+npm install express --- command for installation npm 
+http://expressjs.com/   ---Express dependencies
+
+
+nodemon index.js -L --- nodemon installation
+	
+
+bodyparser -- for parsing 
+
+
+
+There are two main components inside the function name request, response 
+request is used to send the request to the server 
+response is used to send the response to the webpage 
+
+
+
+usage of express for bodyParser  : 
+
+	https://www.npmjs.com/package/body-parser
+	app.use(express.urlencoded({ extended : true}));
+	app.use(express.json())
+	
+

@@ -1,0 +1,16 @@
+Authentication and Encryption 
+There are Totally 6 levels
+level 1 - authenticating an unique user register-login
+level 2 - storing user password in database without any one knows it includes you !
+		for this mongoose encrytion (AES-256-CBC) is used addding to it dotenv for for more secrets towards
+		while deploying the website ....
+level 3 -  Hashing the password so the it becomes almost impossible to decode the password
+		we use md5 to hash to that it is impossible to decode 
+
+level-4 -- salting with bcrypt so that it becomes more tougher for hacker to hack the password
+
+level-5 -- cookies & session
+		express-session
+		passport
+		passport-local
+		passport-local-mongoose

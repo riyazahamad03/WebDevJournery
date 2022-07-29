@@ -1,0 +1,22 @@
+<%- include("header") -%>
+    <div class="box" id="heading">
+      <% if (kindofday === "Saturday" || kindofday === "sunday") {%>
+        <h1 style ="color : blue"><%= kindofday %> Todo List </h1>
+      <% } else {%>
+        <h1 style ="color : orange"><%= kindofday %> Todo List </h1>
+      <%}%>
+    </div>
+    <div class="box">
+      <% for (var i=0; i<NewDataitems.length; i++){ %>
+        <div class="item">
+          <input type="checkbox" name="" value="">
+          <p> <%= NewDataitems[i] %></p>
+        </div>
+      <% } %>
+      <form class="" action="/" method="post">
+        <input type="text" name="newIt" placeholder="New Item " autocomplete="off">
+        <button type="submit" name="button">+</button>
+      </form>
+    </div>
+
+<%- include("footer") -%>

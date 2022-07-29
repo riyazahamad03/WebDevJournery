@@ -1,0 +1,23 @@
+body
+{
+  padding:20px;
+  background-color: gray;
+}
+h1 {
+  margin-top:0;
+  font-style:normal;
+  color: white;
+}
+span {
+  background-color: white;
+}
+.FirstPara
+{
+  background-color: yellowgreen;
+  display: inline-block;
+}
+.SecondPara
+{
+  background-color:lightgreen;
+  /* display: none; */
+}

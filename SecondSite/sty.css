@@ -1,0 +1,21 @@
+body
+{
+  margin: auto;
+  background-color: #B1D0E0;
+}
+table,td,th
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-color: white;
+}
+td
+{
+  border-collapse: collapse;
+  text-align:center;
+  width: 10%;
+}
+img
+{
+  width: 200;
+}

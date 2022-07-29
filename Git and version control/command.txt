@@ -1,0 +1,29 @@
+Git repository local 
+
+
+git init(always this is starting point as the initialization occurs through this )
+
+git add filename ---  staging area
+
+git rm --cached -r. -- removing from staging area
+
+git commit -m ""
+
+
+git diff filename 
+git checkout filename 
+
+
+DOING OUTSIDE LOCAL HOST 
+
+git remote add origin "url of remote repository"
+git push -u origin master
+
+
+
+gitignore 
+for creation of gitignore :: touch .gitignore
+for viewing gitignore and other hidden files ::  ls -a
+
+
+
